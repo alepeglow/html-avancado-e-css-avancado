@@ -1,0 +1,21 @@
+.texto-centralizado {
+    text-align: center;
+}
+
+.texto-realce {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:24px ;
+}
+
+.texto-normal {
+    font-weight: normal;
+}
+
+.texto-negrito {
+    font-weight: bold;
+}
+
+.texto-sublinhado {
+    text-decoration: underline;
+}
