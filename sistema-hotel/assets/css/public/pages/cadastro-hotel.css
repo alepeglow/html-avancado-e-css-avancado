@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0f2f1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2 {
+    color: #004d40;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-save {
+    background: #00796b;
+    color: #fff;
+  }
+  
+  .btn-save:hover {
+    background: #005b40;
+  }
+  
+  .btn-cancel {
+    background: #ccc;
+    color: #000;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ccc;
+    padding: 0.7rem;
+    text-align: left;
+  }
+  
+  .table th {
+    background: #00796b;
+    color: #fff;
+  }

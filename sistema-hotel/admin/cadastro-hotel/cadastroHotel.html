@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HotelPro - Cadastro de Hotel</title>
+  <link rel="stylesheet" href="../../assets/css/public/pages/cadastro-hotel.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Cadastro de Hotel</h1>
+    <form id="hotelForm" class="form-hotel">
+      <div class="form-group">
+        <label for="nomeHotel">Nome do Hotel</label>
+        <input type="text" id="nomeHotel" placeholder="Ex: Hotel Sol" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cnpj">CNPJ</label>
+        <input type="text" id="cnpj" placeholder="00.000.000/0000-00" required>
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" placeholder="(11) 99999-9999" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="contato@hotel.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cep">CEP</label>
+        <input type="text" id="cep" placeholder="00000-000" required>
+      </div>
+
+      <div class="form-group">
+        <label for="endereco">Endereço</label>
+        <input type="text" id="endereco" placeholder="Rua Exemplo, 123">
+      </div>
+
+      <div class="form-group">
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" placeholder="São Paulo">
+      </div>
+
+      <div class="form-group">
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" placeholder="SP">
+      </div>
+
+      <div class="buttons">
+        <button type="submit" class="btn btn-save">Salvar</button>
+        <button type="reset" class="btn btn-cancel">Cancelar</button>
+      </div>
+    </form>
+
+    <!-- tabela para listar hotéis cadastrados -->
+    <section>
+      <h2>Hotéis Cadastrados</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>CNPJ</th>
+            <th>Telefone</th>
+            <th>Email</th>
+            <th>Cidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- preenchido pelo JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="../../assets/js/public/pages/cadastro-hotel.js"></script>
+</body>
+</html>
